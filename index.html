@@ -3,44 +3,294 @@
 <html lang="pt-br">
 	<head>
 	    <meta charset="utf-8">
+	    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css">
+	    <link href='http://fonts.googleapis.com/css?family=Cabin:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 		<title>Calendário Gastrosocioambiental Slow Food</title>
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 		<style>
-		body {background-color:#FCA016;}
-		.main {margin: 0 auto; width: 650px;}
-		.main h1, h2 {color:#006633;}
-		.content {background-color: #fff;}
+		body {background-color:#fff; font-size: 20px; line-height: 140%; font-family: cabin, sans-serif;}
+		.wrapper {margin: 0 auto; width: 650px;}
+		#header {color:  #6d934a; text-align: center; padding: 6px;}
+		#header h1 {font-size: 40px; line-height: 140%; }
+		.nav ul {margin: 0; padding: 0;}
+		.nav ul li {display: inline-block; width: 16.67%;}
+		.nav ul li a {border-right: 1px solid #ccc; color: #666; display: block; font-weight: bold; font-size: 65%; padding: 5%; text-align: center; text-decoration: none; text-transform: uppercase;}
+		.nav ul li:last-child a {border-right: none;}
+		.nav ul:first-child {border-bottom: 1px solid #ccc;}
+		table {margin-bottom: 36px; width: 100%;}
+        tr:hover {background-color: #eee;}
+		th {background-image: url('imgs/logo-slow-icon.png'); background-repeat: no-repeat; background-position: right bottom; border-bottom: solid 4px #6d934a; color: #6d934a; font-size: 110%; padding: 36px 12px 10px 12px; text-align: left; text-transform: uppercase;}
+        td {border-bottom: 1px solid #ddd; line-height: 140%; padding: 6px 12px;}
+        #footer {background-color: #eee; font-size: 75%; line-height: 140%; text-align: center; padding: 20px 0;}
+        #footer .left {float: left; width: 30%;}
+        #footer .right {float: right; width: 60%;}
+        .clear {clear: both;}
+        .bg {background-image: url('imgs/logo-bg.png'); background-repeat: no-repeat; background-position: right center; position: fixed; left: 30px; top: 30px; width: 584px; height: 398px; z-index: -10;}
 		</style>
 	</head>
-	<body>
-	    <div class="main">
-        
-            <div class="header">
-            <h1>Calendário Anual de Celebrações</h1>
-                <h2>Gastro-sócio-ambientais</h2>
+	<body>     
+        <div id="header">
+            <div class="wrapper">
+                <h1>Calendário Anual de Celebrações<br />gastro-sócio-ambientais</h1>
+            </div>
+        </div>
+            <div class="nav">
+                <div class="wrapper">
+                
+                <ul><li><a href="#janeiro">Janeiro</a></li><li><a href="#fevereiro">Fevereiro</a></li><li><a href="#marco">Março</a></li><li><a href="#abril">Abril</a></li><li><a href="#maio">Maio</a></li><li><a href="#junho">Junho</a></li></ul>
+                <ul><li><a href="#julho">Julho</a></li><li><a href="#agosto">Agosto</a></li><li><a href="#setembro">Setembro</a></li><li><a href="#outubro">Outubro</a></li><li><a href="#novembro">Novembro</a></li><li><a href="#dezembro">Dezembro</a></li></ul>
             </div>
             
-            <div class="content">
-                <table class="table table-hover">
-                    <caption></caption>
-                    <thead>
-    				<tr>
-    					<th></th>
-    				</tr>
-                    </thead>
-                    <tfoot>
-    				<tr>
-    					<td></td>
-    				</tr>
-                    </tfoot>
-                    <tbody>
-    				<tr>
-    					<td></td>
-    				</tr>
-                    </tbody>
-                </table>
+            <div class="wrapper">
+            
+            <table>
+                <tr><th colspan="2" id="janeiro">Janeiro</th></tr>
+                <tr><td rowspan="2">01</td><td>Dia Mundial da Paz</td></tr>
+                <tr><td>Confraternização Mundial</td></tr>
+                <tr><td>06</td><td>Dia da Gratidão</td></tr>
+                <tr><td>11</td><td>Dia do Controle da Poluição por Agrotóxicos</td></tr>
+                <tr><td>20</td><td>Dia do Farmacêutico</td></tr>
+                <tr><td>26</td><td>Dia da Gula</td></tr>
+                <tr><td rowspan="2">31</td><td>Dia da Não Violência</td></tr>
+                <tr><td>Dia Mundial da Solidariedade</td></tr>
+
+                <tr><th colspan="2" id="fevereiro">Fevereiro</th></tr>
+                <tr><td>01</td><td>Dia do Publicitário</td></tr>
+                <tr><td rowspan="2">02</td><td>Dia Mundial das Zonas Úmidas</td></tr>
+                <tr><td>Dia de Nossa Senhora dos Navegantes</td></tr>
+                <tr><td>06</td><td>Dia do Agente de Defesa Ambiental</td></tr>
+                <tr><td>10</td><td>Dia Mundial do Enfermo</td></tr>
+                <tr><td>14</td><td>Dia da Amizade</td></tr>
+                <tr><td>22</td><td>Dia da Criação do IBAMA</td></tr>
+
+                <tr><th colspan="2" id="marco">Março</th></tr>
+                <tr><td rowspan="2">01</td><td>Dia da Vindima (colheita das uvas)</td></tr>
+                <tr><td>Dia do Turismo Ecológico</td></tr>
+                <tr><td>05</td><td>Dia da Integração Cooperativista</td></tr>
+                <tr><td>08</td><td>Dia Internacional da Mulher</td></tr>
+                <tr><td>19</td><td>Dia Mundial do Artesão</td></tr>
+                <tr><td rowspan="2">20</td><td>Equinócio de Outono (anúncio do porta-voz slow da estação)</td></tr>
+                <tr><td>Dia Internacional da Felicidade</td></tr>
+                <tr><td rowspan="3">21</td><td>Início do Outono</td></tr>
+                <tr><td>Dia Mundial da Floresta</td></tr>
+                <tr><td>Dia Mundial da Poesia</td></tr>
+                <tr><td>22</td><td>Dia Mundial da Água</td></tr>
+                <tr><td>30</td><td>Dia Mundial da Juventude</td></tr>
+                <tr><td>31</td><td>Dia da Saúde e Nutrição</td></tr>
+                
+                <tr><th colspan="2" id="abril">Abril</th></tr>
+                <tr><td rowspan="2">07</td><td>Dia Mundial da Saúde</td></tr>
+                <tr><td>Dia do Jornalismo</td></tr>
+                <tr><td rowspan="2">15</td><td>Dia Nacional da Conservação do Solo</td></tr>
+                <tr><td>Dia do Ciclista</td></tr>
+                <tr><td>17</td><td>Dia Nacional da Botânica</td></tr>
+                <tr><td>18</td><td>Sexta-feira Santa</td></tr>
+                <tr><td>19</td><td>Dia do Índio</td></tr>
+                <tr><td rowspan="3">22</td><td>Dia da Mandioca</td></tr>
+                <tr><td>Descobrimento do Brasil</td></tr>
+                <tr><td>Dia da Terra</td></tr>
+                <tr><td>24</td><td>Dia do Chimarrão</td></tr>
+                <tr><td>28</td><td>Dia da Caatinga</td></tr>
+
+                <tr><th colspan="2" id="maio">Maio</th></tr>
+                <tr><td rowspan="5">03</td><td>Dia do Solo</td></tr>
+                <tr><td>Dia do Pau-Brasil</td></tr>
+                <tr><td>Dia Mundial do Riso</td></tr>
+                <tr><td>Dia do Sol</td></tr>
+                <tr><td>Dia da Liberdade de Imprensa</td></tr>
+                <tr><td>05</td><td>Dia Mundial do Campo</td></tr>
+                <tr><td>07</td><td>Dia do Silêncio</td></tr>
+                <tr><td>08</td><td>Dia do Profissional de Marketing</td></tr>
+                <tr><td>10</td><td>Dia da Cozinheira</td></tr>
+                <tr><td rowspan="2">13</td><td>Dia do Cozinheiro</td></tr>
+                <tr><td>Abolição da escravatura no Brasil</td></tr>
+                <tr><td>15</td><td>Dia Internacional da Família</td></tr>
+                <tr><td rowspan="2">16</td><td>Dia do Gari</td></tr><tr><td>Dia da Solidariedade</td></tr>
+                <tr><td rowspan="2">17</td><td>Dia Internacional Contra a Homofobia</td></tr><tr><td>Dia Mundial da Hipertensão</td></tr>
+                <tr><td>18</td><td>Dia da Boa Vontade</td></tr>
+                <tr><td rowspan="2">22</td><td>Dia Internacional da Biodiversidade</td></tr>
+                <tr><td>Dia do Apicultor</td></tr>
+                <tr><td rowspan="2">23</td><td>Dia Nacional de Lutas</td></tr>
+                <tr><td>Dia da Tartaruga</td></tr>
+                <tr><td>24</td><td>Dia do Café</td></tr>
+                <tr><td rowspan="2">25</td><td>Dia do Trabalhador Rural</td></tr>
+                <tr><td>Dia da Indústria e do Industrial</td></tr>
+                <tr><td>27</td><td>Dia Nacional da Mata Atlância</td></tr>
+                <tr><td rowspan="2">28</td><td>Dia da Saúde</td></tr>
+                <tr><td>Dia do Ceramista</td></tr>
+                <tr><td>29</td><td>Dia do Desafio</td></tr>
+                <tr><td>30</td><td>Dia das Bandeiras</td></tr>
+                <tr><td>31</td><td>Dia Mundial Sem Tabaco</td></tr>
+
+                <tr><th colspan="2" id="junho">Junho</th></tr>
+                <tr><td>02</td><td>Dia Internacional do Pólen</td></tr>
+                <tr><td>03</td><td>Dia Nacional da Educação Ambiental</td></tr>
+                <tr><td rowspan="2">05</td><td>Dia Mundial do Meio Ambiente</td></tr
+                ><tr><td>Dia Internacional do Cacau</td></tr>
+                <tr><td>05</td><td>Dia da Ecologia</td></tr>
+                <tr><td>07 a 18</td><td>Combate ao Trabalho Infantil</td></tr>
+                <tr><td rowspan="2">08</td><td>Dia Mundial dos Oceanos</td></tr>
+                <tr><td>Dia do Citricultor</td></tr>
+                <tr><td>11</td><td>Dia do Educador Sanitário</td></tr>
+                <tr><td>17</td><td>Dia de Combate à Desertificação e à Seca</td></tr>
+                <tr><td>19</td><td>Dia do Cinema Brasileiro</td></tr>
+                <tr><td>20</td><td>Dia do Revendedor</td></tr>
+                <tr><td>21</td><td>Dia da Música</td></tr>
+                <tr><td>21</td><td>Solstício de Inverno (anúncio do porta-voz slow da estação)</td></tr>
+                <tr><td>23</td><td>Dia do Lavrador</td></tr>
+                <tr><td rowspan="2">24</td><td>Dia de São João</td></tr>
+                <tr><td>Dia Internacional do Leite</td></tr>
+                <tr><td>26</td><td>Dia Internacional sobre o Abuso e Tráfico Ilícito de Drogas</td></tr>
+                <tr><td rowspan="2">25</td><td>Dia do Quilo</td></tr>
+                <tr><td>Dia da Agricultura</td></tr>
+                <tr><td rowspan="2">29</td><td>Dia do Pescador</td></tr>
+                <tr><td>Dia Nacional do Pescador Amador</td></tr>
+
+                <tr><th colspan="2" id="julho">Julho</th></tr>
+                <tr><td>07</td><td>Dia do Voluntário Social</td></tr>
+                <tr><td rowspan="2">08</td><td>Dia do Panificador</td></tr>
+                <tr><td>Dia do Pesquisador</td></tr>
+                <tr><td>10</td><td>Dia da Pizza</td></tr>
+                <tr><td rowspan="3">13</td><td>Dia Mundial do Rock</td></tr>
+                <tr><td>Dia do Engenheiro de Saneamento</td></tr>
+                <tr><td>Dia do Cantor</td></tr>
+                <tr><td>14</td><td>Dia da Liberdade de Pensamento</td></tr>
+                <tr><td>15</td><td>Dia do Homem</td></tr>
+                <tr><td>16</td><td>Dia do Comerciante</td></tr>
+                <tr><td>17</td><td>Dia de Proteção das Florestas</td></tr>
+                <tr><td rowspan="2">19</td><td>Dia da Caridade</td></tr>
+                <tr><td>Dia Nacional do Futebol</td></tr>
+                <tr><td rowspan="2">20</td><td>Dia da Amizade</td></tr><tr><td>Dia do Amigo</td></tr>
+                <tr><td rowspan="2">25</td><td>Dia da Mulher Afro Latina Americana e Caribenha</td></tr>
+                <tr><td>Dia do Colono</td></tr>
+                <tr><td>26</td><td>Dia dos Avós</td></tr>
+                <tr><td>28</td><td>Dia do Agricultor</td></tr>
+                <tr><td>31</td><td>Dia do Orgasmo</td></tr>
+
+                <tr><th colspan="2" id="agosto">Agosto</th></tr>
+                <tr><td rowspan="2">01</td><td>Dia da Amamentação</td></tr>
+                <tr><td>Dia da Pachamama</td></tr>
+                <tr><td>05</td><td>Dia Nacional da Saúde</td></tr>
+                <tr><td rowspan="2">08</td><td>Dia dos Bandeirantes</td></tr>
+                <tr><td>do Combate ao Colesterol</td></tr>
+                <tr><td rowspan="2">09</td><td>Dia Internacional dos Povos Indígenas</td></tr>
+                <tr><td>Dia Interamericano da Qualidade do Ar</td></tr>
+                <tr><td rowspan="3">11</td><td>Dia Nacional da Televisão</td></tr>
+                <tr><td>Dia do Garçom</td></tr>
+                <tr><td>Dia do Estudante</td></tr>
+                <tr><td>12</td><td>Dia dos Pais</td></tr>
+                <tr><td rowspan="2">14</td><td>Dia do Combate à Poluição</td></tr>
+                <tr><td>Dia do Protesto</td></tr>
+                <tr><td>16</td><td>Dia do Filósofo</td></tr>
+                <tr><td rowspan="2">17</td><td>Dia Nacional do Patrimônio Histórico</td></tr>
+                <tr><td>Dia do Amor</td></tr>
+                <tr><td>21</td><td>Dia da Habitação</td></tr>
+                <tr><td>23</td><td>Dia do Combate à Injustiça</td></tr>
+                <tr><td rowspan="2">24</td><td>Dia do Artista</td></tr>
+                <tr><td>Dia da Infância</td></tr>
+                <tr><td>25</td><td>Dia do Feirante</td></tr>
+                <tr><td>26</td><td>Dia da Declaração dos Direitos do Homem e do Cidadão</td></tr>
+                <tr><td rowspan="2">28</td><td>Dia da Avicultura</td></tr>
+                <tr><td>Dia Nacional do Voluntário</td></tr>
+                <tr><td>29</td><td>Dia do Combate ao Fumo</td></tr>
+                <tr><td>31</td><td>Dia do Nutricionista</td></tr>
+
+                <tr><th colspan="2" id="setembro">Setembro</th></tr>
+                <tr><td>01</td><td>Dia do Caixeiro Viajante</td></tr>
+                <tr><td>02</td><td>Dia do Florista</td></tr>
+                <tr><td>03</td><td>Dia do Biólogo</td></tr>
+                <tr><td rowspan="2">05</td><td>Dia da Amazônia</td></tr>
+                <tr><td>Dia da Farmácia</td></tr>
+                <tr><td>07</td><td>Dia da Pátria</td></tr>
+                <tr><td>09</td><td>Dia do Veterinário</td></tr>
+                <tr><td>11</td><td>Dia do Cerrado</td></tr>
+                <tr><td rowspan="2">12</td><td>Dia do Trator</td></tr>
+                <tr><td>Dia da Recreação</td></tr>
+                <tr><td rowspan="2">13</td><td>Dia do Agrônomo</td></tr>
+                <tr><td>Dia Nacional da Cachaça</td></tr>
+                <tr><td rowspan="2">16</td><td>Dia Internacional de Proteção à Camada de Ozônio</td></tr><tr><td>Dia Mundial da Prevenção de Desastres Naturais</td></tr>
+                <tr><td>17</td><td>Dia da Compreensão Mundial</td></tr>
+                <tr><td rowspan="3">20</td><td>Dia do Coletor de Lixo</td></tr><tr><td>Dia Internacional da Limpeza (UNESCO)</td></tr><tr><td>Dia do Gaúcho</td></tr>
+                <tr><td rowspan="4">21</td><td>Dia da Árvore</td></tr><tr><td>Dia da Tia</td></tr><tr><td>Dia do Fazendeiro</td></tr><tr><td>Dia Internacional da Paz</td></tr>
+                <tr><td rowspan="3">22</td><td>Dia da Defesa da Fauna</td></tr><tr><td>Dia Mundial Sem Carro</td></tr><tr><td>Dia da Banana</td></tr>
+                <tr><td>23</td><td>Equinócio de Primavera (anúncio do porta-voz slow da estação)</td></tr>
+                <tr><td>24</td><td>Dia Mundial do Coração</td></tr>
+                <tr><td rowspan="2">27</td><td>Dia Mundial do Idoso</td></tr><tr><td>Dia do Ancião</td></tr>
+                <tr><td>28</td><td>Dia do Vaqueiro</td></tr>
+
+                <tr><th colspan="2" id="outubro">Outubro</th></tr>
+                <tr><td rowspan="3">01</td><td>Dia Internacional da Terceira Idade</td></tr><tr><td>Dia Internacional da Doação de Leite Humano</td></tr><tr><td>Dia Mundial do Vegetarianismo</td></tr>
+                <tr><td>02</td><td>Dia Interamericano da Água</td></tr>
+                <tr><td>03</td><td>Dia das Abelhas </td></tr>
+                <tr><td rowspan="3">04</td><td>Dia da Natureza</td></tr><tr><td>Dia do Barman</td></tr><tr><td>Dia Mundial dos Animais </td></tr>
+                <tr><td>04 a 10</td><td>Semana de Proteção à Fauna</td></tr>
+                <tr><td rowspan="2">05</td><td>Dia das Aves</td></tr><tr><td>Dia do Bóia-fria</td></tr>
+                <tr><td>08</td><td>Dia do Nordestino</td></tr>
+                <tr><td>10</td><td>Dia Mundial da Amamentação</td></tr>
+                <tr><td rowspan="2">12</td><td>Dia do Mar</td></tr><tr><td>Dia das Crianças</td></tr>
+                <tr><td>15</td><td>Dia do Professor e do Educador Ambiental</td></tr>
+                <tr><td>14</td><td>Dia Nacional da Pecuária</td></tr>
+                <tr><td rowspan="2">16</td><td>Dia Mundial da Alimentação</td></tr><tr><td>Dia da Ciência e Tecnologia</td></tr>
+                <tr><td>18</td><td>Dia do Médico</td></tr>
+                <tr><td rowspan="2">21</td><td>Dia do Lixeiro</td></tr><tr><td>Dia do Contato</td></tr>
+                <tr><td>22</td><td>Dia do Enólogo</td></tr>
+                <tr><td>29</td><td>Dia das Flores</td></tr>
+                <tr><td rowspan="3">31</td><td>Halloween</td></tr><tr><td>Dia da Dona de Casa</td></tr><tr><td>Dia Mundial da Economia</td></tr>
+
+                <tr><th colspan="2" id="novembro">Novembro</th></tr>
+                <tr><td rowspan="2">01</td><td>Dia de Todos os Santos</td></tr><tr><td>Dia do Veganismo</td></tr>
+                <tr><td>04</td><td>Dia do Escoteiro</td></tr>
+                <tr><td>05</td><td>Dia da Cultura e da Ciência</td></tr>
+                <tr><td rowspan="2">10</td><td>Dia do Trigo</td></tr><tr><td>Dia do Ruralismo</td></tr>
+                <tr><td>12</td><td>Dia Nacional do Supermercado</td></tr>
+                <tr><td>13</td><td>Dia Nacional da Família na Escola</td></tr>
+                <tr><td>14</td><td>Dia Mundial da Diabetes</td></tr>
+                <tr><td rowspan="2">14</td><td>Dia dos Bandeirantes</td></tr><tr><td>Dia Internacional da Qualidade</td></tr>
+                <tr><td rowspan="2">17</td><td>Dia Internacional do Estudante</td></tr><tr><td>Dia da Criatividade</td></tr>
+                <tr><td rowspan="2">20</td><td>Dia da Consciência Negra</td></tr><tr><td>Dia do Biomédico</td></tr>
+                <tr><td rowspan="3">21</td><td>Dia da Homeopatia</td></tr><tr><td>Dia das Saudações</td></tr><tr><td>Dia Mundial da Televisão</td></tr>
+                <tr><td>22</td><td>Dia do Reciclador e Reciclagem de Lixo</td></tr>
+                <tr><td>23</td><td>Dia Internacional do Livro</td></tr>
+                <tr><td>24</td><td>Dia do Rio</td></tr>
+                <tr><td>29</td><td>Dia do Café</td></tr>
+                <tr><td>29</td><td>Dia do Nhoque da Fortuna</td></tr>
+                <tr><td>30</td><td>Dia do Estatuto da Terra</td></tr>
+
+                <tr><th colspan="2" id="dezembro">Dezembro</th></tr>
+                <tr><td>01</td><td>Dia Mundial do Combate à AIDS</td></tr>
+                <tr><td>02</td><td>Dia Nacional do Samba</td></tr>
+                <tr><td>06</td><td>Dia do Madeireiro</td></tr>
+                <tr><td>08</td><td>Dia Nacional da Família</td></tr>
+                <tr><td>09</td><td>Dia do Profissional da Culinária</td></tr>
+                <tr><td rowspan="2">10</td><td>Dia Internacional dos Povos Indígenas</td></tr><tr><td>Dia Universal do Palhaço</td></tr>
+                <tr><td>11</td><td>Dia do Agrônomo</td></tr>
+                <tr><td>15</td><td>Dia do Jardineiro</td></tr>
+                <tr><td>22</td><td>Dia da Consciência Ecológica</td></tr>
+                <tr><td>21</td><td>Solstício de Verão (anúncio do porta-voz slow da estação)</td></tr>
+                <tr><td>24</td><td>Dia Universal do Perdão</td></tr>
+                <tr><td>29</td><td>Dia Internacional das Diversidades Biológicas</td></tr>
+                <tr><td>31</td><td>Dia da Esperança</td></tr> 
+                    
+            </table>
             </div>
             
-    	</div>	
+            </div>
+            
+        <div id="footer">
+            <div class="wrapper">
+                <div class="left">
+                    <img src="imgs/logo-sfsp.png">
+                </div>
+                <div class="right">
+                    <p>Saiba mais sobre o movimento Slow Food no site:<br /><a href="http://www.slowfoodbrasil.com">www.slowfoodbrasil.com</a></p>
+                    <p>Visite o blog do convívio paulistano do Slow Food:<br /><a href="http://slowfoodsp.blogspot.com.br">http://slowfoodsp.blogspot.com.br</a></p>
+                </div>
+            <div class="clear">
+            </div>                
+                
+            </div>	
+        </div>
+    	
+    	<div class="bg">
+    	</div>
 	</body>
 </html>
